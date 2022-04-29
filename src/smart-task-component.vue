@@ -1,6 +1,5 @@
 <script lang="ts">
-import { loadStripe } from "@stripe/stripe-js";
-import { defineComponent, ref, onBeforeMount } from "vue";
+import { defineComponent, ref } from "vue";
 // @ts-ignore
 import { VuePaycard } from "vue-paycard";
 
@@ -60,12 +59,6 @@ export default /*#__PURE__*/ defineComponent({
     const card = ref();
     const elms = ref();
 
-    onBeforeMount(() => {
-      const stripePromise = loadStripe(stripeKey.value);
-      stripePromise.then(() => {
-        stripeLoaded.value = true;
-      });
-    });
 
     return {
       stripeKey,
