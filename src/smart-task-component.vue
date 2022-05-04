@@ -145,6 +145,7 @@ export default /*#__PURE__*/ defineComponent({
 }
 .card .card-body .card-plan .card-plan-text .card-plan-price {
   color: hsl(224, 23%, 55%);
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 800;
 }
 </style>
