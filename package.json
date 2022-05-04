@@ -14,8 +14,10 @@
     "build:es": "cross-env NODE_ENV=production rollup --config dev/rollup.config.js --format es"
   },
   "dependencies": {
+    "@vue-stripe/vue-stripe": "^4.4.2",
     "core-js": "^3.6.5",
-    "vue-paycard": "^0.7.0"
+    "install": "^0.13.0",
+    "npm": "^8.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
