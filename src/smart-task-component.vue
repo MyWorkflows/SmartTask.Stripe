@@ -120,7 +120,7 @@ export default /*#__PURE__*/ defineComponent({
   flex-direction: row;
   align-items: center;
   column-gap: 15px;
-  background: hsl(225, 100%, 98%);
+  background: hsl(0, 0%, 100%);
   border-radius: 10px;
   padding: 15px;
   box-sizing: border-box;
